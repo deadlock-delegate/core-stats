@@ -1,0 +1,50 @@
+{
+  "name": "@deadlock-delegate/core-stats",
+  "version": "0.5.0",
+  "description": "Plugin that collect stats and reports them to statsd",
+  "author": "deadlock",
+  "license": "MIT",
+  "keywords": [
+    "core",
+    "blockchain",
+    "ark",
+    "crypto",
+    "dpos",
+    "logging",
+    "http",
+    "requests"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadlock-delegate/core-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deadlock-delegate/core-stats/issues"
+  },
+  "homepage": "https://github.com/deadlock-delegate/core-stats",
+  "scripts": {
+    "test": "ARK_ENV=test jest --runInBand --forceExit",
+    "lint": "eslint ./ --fix"
+  },
+  "dependencies": {
+    "@fiverr/statsd-client": "^1.0.1",
+    "appmetrics": "^5.1.1",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "jest-extended": "^0.7.1",
+    "standard": "^11.0.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
