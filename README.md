@@ -1,5 +1,11 @@
 # Ark Core Stats Plugin
 
+Plugin gathers your ark process stats (listed below) and reports them to a statsd server:
+
+- cpu
+- memory
+- eventloop
+- gc
 
 ## Installation
 
