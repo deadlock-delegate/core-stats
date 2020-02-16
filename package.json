@@ -1,6 +1,6 @@
 {
   "name": "@deadlock-delegate/core-stats",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Plugin that collect stats and reports them to statsd",
   "author": "deadlock",
   "license": "MIT",
